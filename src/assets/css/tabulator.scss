@@ -1,0 +1,147 @@
+.mobile-device-table{
+  @apply h-[calc(100vh-300px)] w-full overflow-scroll;
+}
+.table-container {
+  // @apply min-h-[50vh] lg:h-[70vh] 2xl:h-[75vh] ml-[2px];
+  @apply min-h-[50vh] h-[calc(100vh-300px)] md:h-[calc(100vh-140px)] 2xl:h-[calc(100vh-180px)] ml-[2px];
+  width: 100%;
+  overflow: auto;
+
+  table {
+    @apply -mt-2;
+    width: 100%;
+    border-collapse: collapse;
+
+
+
+    border-spacing: 0 7px;
+    border-collapse: separate;
+
+    
+
+    tr{
+      position: relative;
+    }
+
+  
+    
+    thead  {  
+
+      th{
+        @apply p-2 py-2.5 text-[#ADADAD] bg-secondary;
+        position: sticky;
+        top: 0;
+      }
+      
+    }
+    tbody  {
+       
+      tr{
+        @apply shadow-sm dark:shadow-slate-600;
+        transition: all 0.2s ease-in-out;
+        
+
+        td {
+          @apply text-xs xl:text-sm p-2 xl:p-2.5;
+          color: white;
+        }
+      }
+
+      tr:last-child td {
+        border-bottom: none;
+      }
+
+      tr:hover{
+        box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.2);
+      }
+
+
+      
+
+      
+    }
+
+    td:first-child, td:last-child {
+      padding-left: 15px
+    }
+
+
+    
+  }
+}
+
+
+
+.table-container-modal {
+  @apply relative lg:h-[60vh] 2xl:h-[55vh];
+  width: 100%;
+  overflow: auto;
+
+  table {
+    @apply -mt-2;
+    width: 100%;
+    border-collapse: collapse;
+
+    border-spacing: 0 7px;
+    border-collapse: separate;
+  
+    tr{
+      position: relative;
+    }
+    
+    thead  {
+  
+
+      th{
+        @apply p-2 py-2.5 text-[#ADADAD] bg-secondary;
+
+        position: sticky;
+        top: 0;
+      }
+      
+    }
+    tbody  {
+       
+      tr{
+        @apply shadow-sm dark:shadow-slate-600;
+        transition: all 0.2s ease-in-out;
+        
+
+        td {
+          @apply text-sm ;
+          padding: 8px;
+        }
+      }
+
+      tr:last-child td {
+        border-bottom: none;
+      }
+
+      tr:hover{
+        box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.2);
+      }
+
+
+      
+
+      
+    }
+
+    td:first-child, td:last-child {
+      padding-left: 15px
+    }
+
+
+    
+  }
+}
+
+
+
+.table-container-modal table thead tr:nth-child(1){
+  z-index: 60;
+}
+
+.table-container table thead tr:nth-child(1){
+  z-index: 60;
+}

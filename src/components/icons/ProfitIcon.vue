@@ -1,0 +1,6 @@
+<template>
+   <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" id="Money">
+  <path fill-rule="evenodd" d="M13 3c-1.1 0-2 .9-2 2v1H0v19c0 1.653 1.347 3 3 3h26c1.653 0 3-1.347 3-3V6H21V5c0-1.1-.9-2-2-2Zm0 1h6c.563 0 1 .437 1 1v1h-8V5c0-.563.437-1 1-1ZM1 7h30v8.334c0 .563-.437 1-1 1h-7.787c-.3-3.3-3.105-5.834-6.488-5.834-3.365 0-6.12 2.565-6.452 5.834H2c-.563 0-1-.437-1-1V8Zm14.725 4.498v.002c3.057 0 5.517 2.383 5.517 5.422v.076a5.509 5.509 0 0 1-5.517 5.504 5.478 5.478 0 0 1-5.485-5.504c0-3.043 2.434-5.5 5.485-5.5zM13.27 13v.01h-.024v1h1.027c.936 0 1.408.441 1.579.99H13.27v1h2.582c-.171.548-.644.99-1.579.99h-1.027v1h.266l3.086 3.012.697-.717-2.412-2.355c1.095-.222 1.8-1.034 1.994-1.93h1.365v-1h-1.365c-.078-.36-.245-.7-.48-1h1.845v-1zM1 17.053c.296.173.634.281 1 .281h7.258c.174 3.425 2.99 6.168 6.467 6.168a6.518 6.518 0 0 0 6.5-6.168H30c.366 0 .704-.108 1-.281V25c0 1.117-.883 2-2 2H3c-1.117 0-2-.883-2-2Z" color="#000" font-family="sans-serif" font-weight="400" overflow="visible" style="line-height:normal;text-indent:0;text-align:start;text-decoration-line:none;text-decoration-style:solid;text-decoration-color:#000;text-transform:none;block-progression:tb;isolation:auto;mix-blend-mode:normal" fill="#ffffff" class="color000000 svgShape"></path>
+</svg>
+
+</template>
